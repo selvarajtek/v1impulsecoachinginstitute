@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+.home-cont{
+    /* background-color: #c0c0c0; */
+    height: 100vh;
+    padding-top: 30px;
+    background-image: url('/public/background/3.webp');
+    filter: opacity(0.1)
+}
+.qoutes-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slogan{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.quotes-line{
+    /* background-color: rgba(240, 255, 255, 0.555); */
+    border-radius: 10px;
+    color: rgb(22, 29, 66);
+    text-transform: uppercase;
+}
+.front-qoutes{
+    padding: 3%;
+    padding-bottom: 0%;
+}
+.third-col{
+    padding-top: 5%;
+}
+.first-col{
+    padding-top: 5%;
+}
+.btn-video{
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yt-icon{
+    color: red;
+    font-size: 25px;
+    /* margin-right: 5px; */
+}
+.yt-anchorlink{
+    margin-top: 15px;
+}
+.home-page-content{
+    font-family: 'Noto Serif', serif;
+    margin-top: 3%;
+}
+.why-impulse{
+    background-color: azure;
+}
+.test-current{
+    margin-top: 3%;
+}
+.front-card-header{
+    background-color: #706464;
+    color: wheat;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+.front-cards{
+    /* box-shadow: 5px 5px #d3d3d3; */
+}
+#tap_page{
+    /* display: block; */
+}
+
+#mobile_page{
+    display: none;
+}
+
+
+.content {
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider-wrapper {
+    font-size: 18px;
+    color:#aaa;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider{
+    height: 30px;
+    padding-left:15px;
+    overflow: hidden;
+  }
+  .slider div {
+    color:#fff;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 2px 15px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .slider-text1 {
+    /* background: lightgreen; */
+    background: lightcoral;
+    animation: slide 20s linear infinite;
+  }
+  .slider-text2 {
+    /* background: skyblue; */
+    background: lightcoral;
+  }
+  .slider-text3 {
+    background: lightcoral;
+  }
+  @keyframes slide {
+    0% {margin-top:-300px;}
+    5% {margin-top:-200px;}
+    33% {margin-top:-200px;}
+    38% {margin-top:-100px;}
+    66% {margin-top:-100px;}
+    71% {margin-top:0px;}
+    100% {margin-top:0px;}
+  }
+
+@media (max-width: 750px){
+    #tap_page{
+        display: none;
+    }
+
+    #mobile_page{
+        display: block;
+    }
+
+    .btn-video{
+        background-color: rgba(0, 0, 0, 0.808);
+        padding: 10px;
+        height: 30px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .yt-anchorlink{
+        margin-top: 0px;
+    }
+    .slider-wrapper {
+        font-size: 10px;
+        color:#aaa;
+        font-weight: 500;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .slogan{
+        font-size: 17px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+    }
+}

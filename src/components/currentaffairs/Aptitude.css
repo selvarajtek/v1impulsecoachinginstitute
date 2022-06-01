@@ -1,0 +1,70 @@
+.aptitude-container{
+    overflow: hidden;
+}
+
+.tuition-header-img{
+    filter: brightness(0.2);
+    border-radius: 0px;
+}
+.tuition-header{
+    margin-top: -20px;
+}
+
+.prepare-apti-heading{
+    text-align: center;
+    margin: 5px;
+}
+.general-instruction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.freeclass_heading{
+    margin: 60px;
+}
+.bestFreeclass{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#prepare1_apti{
+    width: 60%;
+}
+#prepare2_apti{
+    width: 30%;
+}
+.prepare-aptitude-exam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+#aptitude_img2{
+    width: 350px;
+    margin: 10px;
+}
+.tuition-img-card{
+    /* border-radius: 0px; */
+    /* height: 500px; */
+    height: 30vh;
+    background-position: center;
+}
+.aptitude-main-content{
+    /* text-align: center; */
+    position: absolute;
+    overflow: hidden;
+}
+.Aptitude_heading{
+    margin: 10%;
+    /* background-color: rgba(5, 53, 21, 0.726); */
+}
+
+#bestytvideo{
+    width: 60%;
+}
+
+#ytvideocontent{
+    width: 30%;
+}

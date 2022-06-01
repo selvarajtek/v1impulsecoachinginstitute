@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+.brandName{
+    color: white
+}
+.brand-nav-head{
+    display: flex;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+}
+.nav-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-slide-scroll-notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 4.5vh;
+    cursor: pointer;
+    z-index: 1;
+}
+.nav-toggle{
+    margin-left: 130px;
+}
+.brand-name{
+    position: absolute;
+    margin-left: 60px;
+    top: 14px;
+}
+.nav-brand p{
+}
+.logo-img{
+    position: absolute;
+    top: 0;
+    /* border: 10px solid  ; */
+    /* background-color: white; */
+}
+.nav-brand img{
+    width: 50px;
+}
+.admin-drop{
+    display: flex;
+    margin-right: 50px;
+}
+.admin-nav{
+    /* width: 50px; */
+}
+#profile-icon{
+    color:rgba(255, 255, 255, 0.849);
+    width: 30px;
+    margin-top: 12px;
+    height: 30px;
+}
+.nav-container{
+    font-family: 'Noto Serif', serif;
+    color: #194f92;
+    /* background-color: rgb(26, 48, 66); */
+    background-color: #535F80;
+    white-space: nowrap;
+    font-size: 17px;
+}
+.nav-link{
+    padding: 4px;
+}
+
+@media (max-width: 991.98px) {  
+    .nav-container{
+        height: auto;
+    }
+}
+
+@media (max-width: 750px) { 
+    .nav-toggle{
+        margin-left: 0px;
+    }
+}

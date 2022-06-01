@@ -1,0 +1,414 @@
+
+.revels-slide{
+    /* transition: 100s; */
+    transition-duration: 20s;
+}
+
+#front{
+    width: 100%;
+    height: 60vh;
+}
+#btn-start{
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    background-color: rgb(11, 140, 179);
+    padding: 10px;
+    box-shadow: 5px 10px rgb(172, 190, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo-front{
+   width: 100px;
+   margin-top: -20px;
+}
+#arrow-icon{
+    font-size: 30px;
+}
+.title-logo{
+    width: 95vh;
+    /* font-family: 'DM Serif Display', serif; */
+    font-size: 45px;
+}
+#build-your{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(11, 140, 179);
+}
+#qoutes-r{
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.btn-video{
+    margin: 20px;
+}
+
+.why-section {
+    margin: 30px;
+    margin-top: 0px;
+    padding: 2%;
+    /* font-family: 'Frank Ruhl Libre', serif; */
+    font-size: 18px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: -5px -10px  rgb(7, 135, 173);
+    border-color: rgb(163, 163, 163);
+    border-style: solid;
+    border-width: 1px 2px 2px 1px;
+    /* background-color: rgb(129, 179, 221); */
+    /* border-radius: 10px; */
+}
+
+.course-section {
+    /* background-color: rgb(217, 218, 181); */
+    /* background-color: white; */
+    margin: 20px;
+    margin-top: 50px;
+    padding: 40px;
+    /* height: 42vh; */
+}
+
+.cc1{
+    background-color: whitesmoke;
+}
+.cc2{
+    background-color: whitesmoke;
+}
+.cc3{
+    background-color: whitesmoke;
+}
+.cc4{
+    background-color: whitesmoke;
+}
+
+.course-card div h5{
+    /* background-color: mediumturquoise; */
+}
+.course-card div{
+  padding: 2%;
+}
+.course-card {
+    width: 250px;
+    height: 180px;
+    margin: 30px;
+    border: 1px solid black;
+    /* background-color: rgb(255, 255, 255); */
+    border-top: 5px solid rgb(19, 19, 41);
+    /* color: white; */
+    transition: 0.2s;
+}
+
+.course-card:hover{
+    width: 255px;
+    height: 185px;
+    transition: 0.2s;
+    /* transition-timing-function: ease; */
+}
+
+.currentaffairs-section {
+    /* background-color: rgba(241, 241, 241, 0.747); */
+    /* padding: 2%; */  
+    margin: 30px 0px;
+    margin-bottom: 80px;
+    font-size: 17px;
+}
+#readmorelink{
+    text-decoration: none;
+    font-weight: bold;
+}
+#about-content{
+    padding: 2%;
+}
+#currentaffairs-card{
+    box-shadow: 5px 10px rgb(172, 190, 7);
+    margin: 20px;
+    /* background-color: white; */
+}
+#testseries-card{
+    box-shadow: 5px 10px rgb(11, 140, 179);
+    /* background-color: white; */
+    margin: 20px;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap'); */
+.heading {
+    font-size: 29px;
+    color: rgb(11, 12, 19);
+    /* font-weight: 600; */
+    /* font-family: 'Noto Serif', serif; */
+}
+.carousel-card{
+    margin: 50px;
+}
+#comma{
+    width: 30px;
+    margin: 30px 0;
+    margin-top: 0;
+}
+#trust{
+    width: 100%;
+}
+.header_founder{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#hf1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+    /* margin: 100px 200px; */
+}
+#hf2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 100px 200px; */
+}
+#hf2-sub2{
+    margin: 10px;
+    background-color: rgb(205, 219, 79);
+    padding: 30px;
+}
+
+#hf2-sub1{
+    text-align: right;
+}
+#hf1-sub2{
+    /* margin: 10px; */
+    background-color: rgb(27, 163, 204);
+    padding: 30px;
+}
+
+#hf1-sub1{
+    /* margin: 10px; */
+    /* width: 100px; */
+    text-align: left;
+}
+#fcard-image{
+    width: 330px;
+    height: 250px;
+    border-radius: 10px;
+}
+.home_header_container{
+    margin: 50px;
+}
+#icon-point {
+    color: rgb(119, 131, 16);
+    font-size: 28px;
+    /* margin-right: 1%; */
+}
+.impluse-points {
+    text-align: justify;
+    margin: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sub-content-parallax{
+    text-align: justify;
+    margin: 2% 10%;
+}
+
+.impulse-trust {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.about-card {
+    height: 20vh;
+}
+
+#about-background {
+    filter: brightness(0.5);
+}
+
+.trust-content {
+    width: 60%;
+}
+
+.children-img {
+    width: 20%;
+}
+
+.card-member1 {
+    width: 300px;
+    height: 50vh;
+    /* margin: 2%; */
+}
+
+.edu_trust_container {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.et1 {
+    width: 60%;
+}
+
+.et2 {
+    width: 10%;
+}
+
+.et2 img {
+    width: 100px;
+}
+
+.home-trust {
+    width: 50px;
+    height: 50px;
+}
+
+.card-member2 {
+    width: 400px;
+    height: 50vh;
+    /* margin: 2%; */
+}
+
+.home-member-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardtestcurrent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardtest{
+    width: 50%;
+    margin: 10px;
+}
+.cardcurrent{
+    width: 50%;
+    margin: 10px;
+}
+
+
+
+.card-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small-heading{
+    color: rgb(4, 62, 100);
+    font-size: 14px;
+    font-weight: 600;
+}
+.parallax {
+    height: 100px;
+}
+
+
+
+.testseries-section {
+    background-color: rgb(173, 173, 173);
+    padding: 2%;
+}
+
+.textseries-image {
+    width: 300px;
+}
+
+.test-row {
+    background-color: white;
+}
+
+.people-img {
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.course_button{
+    border: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 100px;
+    background-color: tomato;
+    margin-left: 100px;
+}
+.course_button:hover {
+    background-color: gray;
+  }
+.people-card {
+    /* max-width: 200px; */
+}
+
+
+
+.section-1 {
+    background-color: gainsboro;
+}
+.founder-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .founder-card-body{
+    height: 200px;
+} */
+.btn_link{
+    color: white;
+    text-decoration-line: none;
+}
+
+.classes-img {
+    width: 100px;
+}
+
+
+
+@media (max-width: 1215px) {
+    .course-section {
+        /* background-color: rgb(217, 218, 181); */
+        background-color: white;
+        padding: 2%;
+        height: 75vh;
+    }
+}
+
+@media (max-width: 540px) {
+    .course-section {
+        /* background-color: rgb(217, 218, 181); */
+        background-color: white;
+        padding: 2%;
+        height: 120vh;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    .impluse-points {
+        margin: 2%;
+        margin-left: 5%;
+    }
+}

@@ -1,0 +1,22 @@
+.currentaffairs-container{
+    overflow: hidden;
+}
+
+.current-image-card{
+    filter: brightness(0.2);
+    border-radius: 0px;
+    height: 20vh;
+}
+
+
+.current-header-card{
+    height: 20vh;
+    border-radius: 0px;
+}
+
+.current-desc{
+    padding-top: 3%;
+}
+.cat-heading{
+    padding: 2% 0;
+}

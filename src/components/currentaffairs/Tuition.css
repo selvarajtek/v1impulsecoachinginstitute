@@ -1,0 +1,120 @@
+.tuition-container{
+    padding-top: 50px;
+    overflow: hidden;
+    background-size: 200px 200px, 200px 200px, 24px 24px, 24px 24px;
+    background-image: linear-gradient(rgba(41, 37, 37, 0) 2px, transparent 2px), linear-gradient(90deg, rgba(8, 8, 8, 0) 2px, transparent 2px), linear-gradient(rgba(0, 0, 0, 0) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0) 1px, transparent 1px);
+    /* background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px; */
+    z-index: -1;
+}
+
+.tuition-header-img{
+    filter: brightness(0.2);
+    border-radius: 0px;
+}
+.tuition-header{
+    margin-top: -20px;
+}
+
+.tuition-img-card{
+    /* border-radius: 0px; */
+    height: 200px;
+    background-position: center;
+}
+#tick{
+    /* position: absolute;
+    text-decoration: overline; */
+    /* z-index: -1; */
+    /* left: 100px; */
+}
+#kutip{
+    width: 30px;
+}
+.tuition-about{
+    margin: 4%;
+    padding: 2%;
+    border-radius: 2px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: cadetblue; */
+}
+.impulse-tuition{
+    margin: 5%;
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    box-shadow: 5px 10px rgb(172, 190, 7);
+}
+.broucher-heading{
+    text-align: center;
+    margin: 20px;
+}
+.green-board-img{
+    width: 200px;
+    height: 400px;
+}
+.tuition-traiff{
+    margin: 4%;
+}
+.tuition-tables{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.traiff-heading{
+    text-align: center;
+    font-weight: 1000;
+    color: darkcyan;
+}
+.tuition-table1{
+    margin: 2%;
+    /* padding: 2%; */
+    /* margin-top: 0%; */
+    padding: 3%;
+    box-shadow: 1px 1px 5px 5px rgb(207, 207, 206);
+}
+
+.home-tuition{
+    text-align: center;
+    margin: 20px;
+}
+.tuition-table2{
+    margin: 2%;
+    padding: 3%;
+    box-shadow: 1px 1px 5px 5px rgb(207, 207, 206);
+}
+.hometuition{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.hometuition-content{
+    margin: 2%;
+    padding: 2%;
+    text-align: justify;
+    width: 50%;
+    margin-top: 0%;
+}
+.hometuition-table{
+    margin: 2%;
+    padding: 3%;
+    box-shadow: 1px 1px 5px 5px rgb(207, 207, 206);
+    width: 30%;
+    margin-top: 0%;
+}
+
+@media (max-width: 767.98px) { 
+    .tuition-tables{
+        display: block;
+     }
+     .hometuition{
+        display: block;
+    }
+    .hometuition-content{
+        width: 100%;
+    }
+    .hometuition-table{
+        width: 100%;
+    }
+}
