@@ -114,8 +114,8 @@ const Upsc = () => {
 const Brochure = () => {
     return (
         <section>
-            <Row className="brochure_content">
-                <p>
+            <Row className="brochure_content" style={{padding:'20px'}}> 
+                <p className='first-content'>
                     Our scientifically designed Upgraded Full Time program is a complete
                     solution for all threee stages of Civil Services Exam. The course
                     endues students not only with the relevant konwledge but also provides
@@ -135,10 +135,10 @@ const Brochure = () => {
                     look at their mistakes and correct it.
                 </p>
             </Row>
-
+<hr></hr>
             <Row md={2} sm={1} xs={1} className="brochure-assesment">
                 <Col md="5" sm="5" xs="11" className='sub-assesment shadow rounded'>
-                    <h5 >Assesment - Periodic Test</h5>
+                    <h5 className='u_heading'>Assesment - Periodic Test</h5>
                     <hr />
                     <ul>
                         <li>Daily tests     - After every class</li>
@@ -147,8 +147,8 @@ const Brochure = () => {
                         <li>Quarterly tests - On topic covered so far</li>
                     </ul>
                 </Col>
-                <Col md="5" sm="5" xs="11" className='sub-optionals shadow rounded'>
-                    <h5>Optionals</h5>
+                <Col md="5" sm="5" xs="11" className='sub-assesment shadow rounded'>
+                    <h5 className='u_heading'>Optionals</h5>
                     <hr />
                     <ul>
                         <li>Public administration</li>
@@ -166,7 +166,7 @@ const Brochure = () => {
                 <Table striped bordered hover>
                     <thead>
                         <tr>
-                            <th colSpan="2">FEES STRUCTURE</th>
+                            <th colSpan="2" className='u_heading'>FEES STRUCTURE</th>
                         </tr>
                     </thead>
                     <tbody>

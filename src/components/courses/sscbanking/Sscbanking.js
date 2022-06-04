@@ -91,12 +91,6 @@ const Sscbanking = () => {
                     <h5 className='course_heading'>SSC AND BANKING</h5>
             </div>  
             <div class="social-icons">
-                <a href="??" target="_blank" class="fb"
-                ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a href="??" target="_blank" class="messenger"
-                ><i class="fab fa-facebook-messenger"></i
-                ></a>
                 <a href="??" target="_blank" class="insta"
                 ><i class="fab fa-instagram"></i
                 ></a>
@@ -304,7 +298,7 @@ const Sscbanking = () => {
                     <div class="row">
                         <div class="col">
                             <div class="prepare_exam_heading"><h4>How To Prepare for Banking Exams</h4></div> <br/>
-                            <div class="footer" style={{display: "flex", justifyContent:"center", alignItems:"center"}}>
+                            <div class="footer" style={{display: "flex", justifyContent:"center", alignItems:"center"}} id='how-prepare-box'>
                                 <div className='how-prepare-icon'>
                                     <img src='pic/preparation.png' width={'350'}/>
                                 </div>
@@ -694,13 +688,13 @@ const Sscbanking = () => {
                         <Table striped bordered hover>
                             <thead>
                                 <tr>
-                                    <th colSpan="2">FEES STRUCTURE</th>
+                                    <th colSpan="2" className='u_heading'>FEES STRUCTURE</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>Course Fees</td>
-                                    <td>Rs. 10,000</td>
+                                    <td>Rs. 12,500</td>
                                 </tr>
                             </tbody>
                         </Table>

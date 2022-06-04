@@ -304,7 +304,7 @@ function Home() {
                       <div>
                         <p>
                         <img src='/pic/comma.png' id='comma'/>
-                            {'            '}Civilisation starts with education; we strive to make everyone
+                            <p className='par_comma'>{'            '}Civilisation starts with education; we strive to make everyone
                             achieve education.” We all make a living by what we get but we make
                             a life by what we give. We at Impulse Educational Trust consciously
                             ensure a life to whom we give and let them be life changers to
@@ -319,7 +319,7 @@ function Home() {
                             Dedicated students who have cleared the respective exam in their
                             very first attempt, the fees that have been paid to IMPULSE will be
                             refunded Why don’t you join us in touching someone’s life? Click the
-                            link below if you wish to contribute. 
+                            link below if you wish to contribute. </p>
                             {/* Contribute here{" "}
                             <p className="read-more">
                               {"Read more>>"}
@@ -332,16 +332,13 @@ function Home() {
 
               <hr />
 
-               <div className='header_founder'>
-               <Row id="hf1">
-               <Col md={5}>
-                  <div id='hf1-sub1'>
-                     <img src="/home/Vignesh anna.jpg" id='fcard-image' alt="..." />
-                  </div>
-               </Col>
-               <Col md={5}>
+               <div className='header_founder ' id="tap_page">
+               
+               <Row id="hf2">
+               <Col md={5} sm={{ order: 'last' }}>
                   <div>
-                     <h5 class="card-title">Mr. S.Vignesh<br/><small className="small-heading">Managing Director</small></h5>
+                     <h5 class="">Mr. S.Vignesh<br/><small className="small-heading">Managing Director</small></h5>
+                           
                      <p class="card-text">We at IMPULSE Coaching Institute strive for the overall
                         development of students and travel with them till they achieve
                         their dream.
@@ -349,6 +346,11 @@ function Home() {
                         advantage of our students. We make sure that we stand on top of
                         our industry by evolving regularly. # Join, experience and
                         succeed.</p>
+                  </div>
+               </Col>
+               <Col md={5} sm={{ order: 'first' }}>
+                  <div id='hf2-sub1'>
+                     <img src="/home/Vignesh anna.jpg" id='fcard-image' alt="..." />
                   </div>
                </Col>
                </Row>
@@ -369,13 +371,60 @@ function Home() {
                   </div>
                </Col>
                <Col md={5} sm={{ order: 'last' }}>
-                  <div id='hf2-sub1'>
+                  <div style={{textAlign:'right'}}>
                      <img src="/home/founder.jpg" id='fcard-image' alt="..." />
                   </div>
                </Col>
                </Row>
                </div>
 
+               <div className='header_founder ' id="mobile_page">
+               
+               <Row id="hf2">
+               <Col md={5} sm={{ order: 'first' }}>
+                  <div id='hf2-sub1'>
+                     <img src="/home/Vignesh anna.jpg" id='fcard-image' alt="..." />
+                  </div>
+               </Col>
+               <Col md={5} sm={{ order: 'last' }}>
+                  <div>
+                     <h5 class="">Mr. S.Vignesh<br/><small className="small-heading">Managing Director</small></h5>
+                           
+                     <p class="card-text">We at IMPULSE Coaching Institute strive for the overall
+                        development of students and travel with them till they achieve
+                        their dream.
+                        <br />Our methodical teaching and testing add to the
+                        advantage of our students. We make sure that we stand on top of
+                        our industry by evolving regularly. # Join, experience and
+                        succeed.</p>
+                  </div>
+               </Col>
+               
+               </Row>
+
+               <Row id="hf2">
+               <Col md={5} sm={{ order: 'last' }}>
+                  <div style={{textAlign:'right'}}>
+                     <img src="/home/founder.jpg" id='fcard-image' alt="..." />
+                  </div>
+               </Col>
+               <Col md={5} sm={{ order: 'first' }}>
+                  <div>
+                     <h5 class="">Mr. K. Palanivelu<br/><small className="small-heading">The Founder</small></h5>
+                           
+                           <p class="card-text">The importance we have attached to education for generations has
+                              culminated in the development of Kalai Kovil Vidhya Mandhir
+                              Matric. Higher Secondary School, Tirupur and Velan Vikhass Matric.
+                              Higher Secondary School, Palani. Moving beyond schools, we have
+                              ventured into the next step - IMPULSE COACHING INSTITUTE, where we
+                              successfully train students aspiring to get into the government
+                              service. Join us and grow with us. All the best! - Mr. K.
+                              Palanivelu (The founder)</p>
+                  </div>
+               </Col>
+               
+               </Row>
+               </div>
           </Container>
           
       </section>

@@ -166,6 +166,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5vh;
     /* margin: 100px 200px; */
 }
 #hf2-sub2{
@@ -175,7 +176,7 @@
 }
 
 #hf2-sub1{
-    text-align: right;
+    text-align: left;
 }
 #hf1-sub2{
     /* margin: 10px; */
@@ -409,6 +410,17 @@
 @media (max-width: 575.98px) {
     .impluse-points {
         margin: 2%;
-        margin-left: 5%;
+        /* margin-left: 5%; */
+    }
+    .par_comma{
+        padding: 20px;
+    }
+    #hf2{
+        padding: 2px;
+        padding-top: 20px;
+    }
+    #hf1{
+        padding: 10px;
+        margin-bottom: 20px;
     }
 }

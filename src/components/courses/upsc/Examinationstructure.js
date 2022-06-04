@@ -18,7 +18,7 @@ const Examinationstructure=()=>{
             <Row className="brochure-fee">
                 <h5 className='u3_heading' >The Civil Services (Preliminary) Examination pattern:</h5>
 
-                <Table striped bordered hover >
+                <Table striped bordered hover responsive>
                     <thead>
                         <tr>
                             <th colSpan="6" style={{textTransform:'uppercase',padding:'20px'}}>Civils Exam Pattern – Prelims</th>
@@ -68,7 +68,7 @@ const Examinationstructure=()=>{
             </Row>
             
             <section className="brochure-fee">
-                <Table striped bordered hover>
+                <Table striped bordered hover responsive id='table-scheme'>
                     <thead>
                         <tr>
                             <th colSpan="4" style={{textTransform:'uppercase',padding:'15px'}}>Scheme for Main Examination</th>

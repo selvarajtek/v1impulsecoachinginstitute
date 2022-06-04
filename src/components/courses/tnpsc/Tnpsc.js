@@ -1,6 +1,8 @@
 
 import React, { useState } from 'react';
 import { Tabs, Tab, Sonnet, Row, Col, Table, DropdownButton, Dropdown,Navbar,Container,NavDropdown,Nav } from 'react-bootstrap';
+import Important from './Important';
+import Syllabus from './Syllabus';
 // import Eligibility from './Eligibility';
 // import Examinationstructure from './Examinationstructure';
 // import Listofservices from './Listofservices';
@@ -30,7 +32,7 @@ const Tnpsc = () => {
 
 
     return (
-        <section>
+        <section style={{overflowX:'hidden'}}>
             <div class="page-header">
             
             <div class='page-head-title'>
@@ -65,9 +67,8 @@ const Tnpsc = () => {
             {/* <Container> */}
                 <Nav>
                     <button className='tab-btn btn btn-secondary' onClick={() => tabHandler(0)}>Career</button>
-                    <button className='tab-btn btn btn-secondary' onClick={() => tabHandler(1)}>Eligibility</button>
-                    <button className='tab-btn btn btn-secondary' onClick={() => tabHandler(2)}>List Of Services</button>
-                    <button className='tab-btn btn btn-secondary' onClick={() => tabHandler(3)}>Examination Structure</button>
+                    <button className='tab-btn btn btn-secondary' onClick={() => tabHandler(1)}>Examination Syllabus</button>
+                    <button className='tab-btn btn btn-secondary' onClick={() => tabHandler(2)}>Important Subjects</button>
                 </Nav>
             {/* </Container> */}
             </Navbar>
@@ -82,18 +83,14 @@ const Tnpsc = () => {
             {/* Eligibility */}
             {tab[1] && 
                 <div style={{marginTop:'30px'}}>
+                    <Syllabus/>
                 </div>
             }
 
-            {/* List of Services */}
+            {/* Important Subjects */}
             {tab[2] && 
                 <div style={{marginTop:'30px'}}>
-                </div>
-            }
-
-            {/* Examination Structure */}
-            {tab[3] && 
-                <div style={{marginTop:'30px'}}>
+                    <Important/>
                 </div>
             }
 
@@ -108,7 +105,7 @@ const Brochure = () => {
             <Row className="brochure_content">
                 {/* <h4 className=''>Impulse Edge for TNPSC</h4> */}
                 <p>
-                    <ul>
+                    <ul className='ul-flexbox'>
                         <li>
                         தமிழ்நாடு அரசு பணியாளர் தேர்வாணையம் நடத்தும் Group-1, Group- 2, Group 4 மற்றும் VAO முதலிய
 
@@ -160,8 +157,8 @@ const Brochure = () => {
             </Row>
 
             <Row md={2} sm={1} xs={1} className="brochure-assesment">
-                <Col md="5" sm="5" xs="11" className='sub-assesment shadow rounded'>
-                    <h5 >தேர்வு முறை</h5>
+                <Col md="5" sm="5" xs="11" className='sub-assesment shadow rounded flexcardOrange' >
+                    <h5 className='u_heading'>தேர்வு முறை</h5>
                     <hr />
                     <ul>
                         <li>தினசரி தேர்வு    -   ஒவ்வொரு வகுப்பின்</li>
@@ -169,8 +166,8 @@ const Brochure = () => {
                         <li>மாதத் தேர்வு     -   மாதத்தின் முதல் ஞாயிற்றுக்கிழமை</li>
                     </ul>
                 </Col>
-                <Col md="5" sm="5" xs="11" className='sub-optionals shadow rounded'>
-                    <h5>பயிற்சி வகுப்புகள்</h5>
+                <Col md="5" sm="5" xs="11" className='sub-assesment shadow rounded flexcardOrange'>
+                    <h5 className='u_heading'>பயிற்சி வகுப்புகள்</h5>
                     <hr />
                     <ul>
                         <li>தொகுதி -1 (Group- | )</li>
@@ -185,7 +182,7 @@ const Brochure = () => {
                 <Table striped bordered hover>
                     <thead>
                         <tr>
-                            <th colSpan="2">கட்டண முறை (FEES STRUCTURE)</th>
+                            <th colSpan="2" className='u_heading'>கட்டண முறை (FEES STRUCTURE)</th>
                         </tr>
                     </thead>
                     <tbody>
