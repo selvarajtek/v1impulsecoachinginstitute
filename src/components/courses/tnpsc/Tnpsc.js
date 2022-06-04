@@ -44,12 +44,6 @@ const Tnpsc = () => {
                     <h5 className='course_heading'>TNPSC</h5>
             </div>  
             <div class="social-icons">
-                <a href="??" target="_blank" class="fb"
-                ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a href="??" target="_blank" class="messenger"
-                ><i class="fab fa-facebook-messenger"></i
-                ></a>
                 <a href="??" target="_blank" class="insta"
                 ><i class="fab fa-instagram"></i
                 ></a>
