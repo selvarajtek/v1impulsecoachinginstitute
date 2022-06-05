@@ -9,6 +9,7 @@ import {RiVideoFill} from "react-icons/ri";
 import './Home.css';
 import './Slide.css';
 import './HomeOld.css';
+import Alert from '../alert/Alert';
 
 function Home() {
 
@@ -18,6 +19,10 @@ function Home() {
 
   return (
       <section className='home-slide'  style={{overflow:'hidden'}} >
+          
+          <section>
+            <Alert/>
+          </section>
           <div id='tap_page'>
             <div>
                 <img src='/background/4.jpg' id='slide-img' />
