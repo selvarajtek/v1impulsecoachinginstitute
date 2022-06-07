@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Modal, Button, Image, Card } from 'react-bootstrap';
 import { Link,NavLink } from 'react-router-dom';
 
-
 import './Alert.css';
 
 function Alert() {
@@ -18,7 +17,7 @@ function Alert() {
         Launch demo modal
       </Button> */}
 
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false}>
             <Modal.Header closeButton className='alert-header'>
                             </Modal.Header>
                 <Modal.Body>
@@ -36,9 +35,9 @@ function Alert() {
                     </Card>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button variant="danger" onClick={handleClose}>
+                    {/* <Button variant="danger" onClick={handleClose}>
                         Close
-                    </Button>
+                    </Button> */}
                     <a href="https://t.me/impulseupsc" target='_blank'><Button variant="info">
                         Click to Join
                     </Button></a>
