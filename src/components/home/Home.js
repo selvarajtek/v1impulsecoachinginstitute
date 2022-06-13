@@ -21,7 +21,7 @@ function Home() {
       <section className='home-slide'  style={{overflow:'hidden'}} >
           
           <section>
-            <Alert/>
+            {/* <Alert/> */}
           </section>
           <div id='tap_page'>
             <div>
